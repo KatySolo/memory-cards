@@ -1,0 +1,60 @@
+html {
+    background-color: #1C7430;
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.child {
+    margin: 10px;
+}
+
+img {
+    width: 503px;
+    height: 262px;
+}
+a{
+    text-decoration: none;
+}
+
+#gameTitle {
+    opacity: 0.85;
+    font-family: OpenSans-Bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#buttonShape {
+    opacity: 0.85;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 144px;
+    height: 42px;
+}
+
+#buttonText {
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    color: #1C7430;
+    letter-spacing: 0;
+    margin: auto;
+}

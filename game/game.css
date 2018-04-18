@@ -1,0 +1,106 @@
+html {
+    background-color: #1C7430;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.parent {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.child {
+    margin: 10px;
+}
+
+#card {
+    padding: 5px 5px;
+    border-radius: 7px;
+    width: 120px;
+    height: 159px;
+}
+
+table {
+    margin: auto;
+    grid-column-end: span 2;
+    grid-row: 2;
+}
+
+.score-place {
+    grid-column: 2;
+    grid-row: 1;
+    opacity: 0.8;
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 10px;
+}
+
+.restart-button {
+    outline: none;
+    grid-column: 1;
+    grid-row: 1;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    opacity: 0.8;
+    font-family: OpenSans-Semibold;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.1px;
+    background-color: transparent;
+
+}
+
+.game {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+
+.exteriorPic {
+    width: 503px;
+    height: 262px;
+}
+
+
+#buttonShape {
+    opacity: 0.85;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 144px;
+    height: 42px;
+}
+#buttonText {
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    color: #1C7430;
+    letter-spacing: 0;
+    margin: auto;
+}
+
+#gameTitle {
+    opacity: 0.85;
+    font-family: OpenSans-Bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    position: relative;
+}

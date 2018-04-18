@@ -1,0 +1,31 @@
+html {
+    background-color: #1C7430;
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.child {
+    margin: 10px;
+}
+
+img {
+    width: 503px;
+    height: 262px;
+}
